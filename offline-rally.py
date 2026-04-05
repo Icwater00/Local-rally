@@ -12,8 +12,8 @@ st.markdown("Upload your **Rally Box** screenshot below to generate a list of na
 # 2. Load OCR Model (Cached to prevent reloading on every interaction)
 @st.cache_resource
 def load_model():
-    # use_gpu=False is critical for Streamlit Community Cloud compatibility
-    return PaddleOCRVL(use_gpu=False)
+    # PaddleOCRVL infers hardware from the installed paddlepaddle package.
+    return PaddleOCRVL()
 
 try:
     ocr = load_model()
