@@ -4,3 +4,4 @@ paddlex
 streamlit
 pandas
 Pillow
+opencv-python-headless
