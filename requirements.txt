@@ -1,8 +1,7 @@
-paddlepaddle
-paddleocr
-paddlex
 streamlit
 pandas
 Pillow
+paddlepaddle==3.0.0b1
+paddleocr>=2.7.3
 opencv-python-headless
 opencv-contrib-python-headless
