@@ -1,0 +1,5 @@
+paddlepaddle==3.2.1
+paddleocr[doc-parser]
+streamlit
+pandas
+Pillow
